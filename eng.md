@@ -1,42 +1,41 @@
-<article class="post-122582 post type-post status-publish format-standard hentry
-category-coding tag-code-style tag-css tag-javascript post
-">
+# Why Coding Style Matters
+
 When I was studying computer science in college, I had one extremely tough
-professor. His name was Dr. Maxey and he taught the more complicated courses 
-like data structures and computer architecture. He was a wonderful teacher with 
+professor. His name was Dr. Maxey and he taught the more complicated courses
+like data structures and computer architecture. He was a wonderful teacher with
 a talent for articulating difficult concepts, but also an extremely tough grader.
 Not only would he look over your code to make sure that it worked, he would take
 off points for stylistic issues.
 
 If you were missing appropriate comments, or even if you misspelled a word or
-two in your comments, he would deduct points. If your code was “messy” (by his 
-standards), he would deduct points. The message was clear: the quality of your 
-code is not just in its execution but also in its appearance. That was my first 
+two in your comments, he would deduct points. If your code was “messy” (by his
+standards), he would deduct points. The message was clear: the quality of your
+code is not just in its execution but also in its appearance. That was my first
 experience with coding style.
 
 ### What’s A Style Anyway?
 
 Coding style is how your code looks, plain and simple. And by “your,” I
-actually mean you, the person who is reading this article. Coding style is 
-extremely personal and everyone has their own preferred style. You can discover 
-your own personal style by looking back over co  
-<blockquotes>de that you’ve written when you didn’t have a style guide to
+actually mean you, the person who is reading this article. Coding style is
+extremely personal and everyone has their own preferred style. You can discover
+your own personal style by looking back over code
+that you’ve written when you didn’t have a style guide to
 adhere to. Everyone has their own style because of the way they learned to code.
-If you used an integrated development environment (IDE) like Visual Studio to 
+If you used an integrated development environment (IDE) like Visual Studio to
 learn coding, your style probably matches the one enforced by the editor. If you
-learned using a plain text editor, your style likely evolved from what you 
-thought was more readable.</blockquotes>
+learned using a plain text editor, your style likely evolved from what you
+thought was more readable.
 
-![Style Guide][1]  
+![Style Guide][1]
 *Not only publishing houses need a style guide. If you want to keep your code
-readable and easy to maintain even years after you’ve finished a product, a 
-coding style guide is helpful and necessary.[ (Image source on flickr)][2]*
+readable and easy to maintain even years after you’ve finished a product, a
+coding style guide is helpful and necessary. [(Image credit: Wikidave)][2]*
 
 You may even notice that your style changes from language to language. The
-decisions that you made in JavaScript might not carry over to your CSS. For 
+decisions that you made in JavaScript might not carry over to your CSS. For
 instance, you might decide JavaScript strings should use double quotes while CSS
-strings should use single quotes. This isn’t uncommon as we tend to context 
-switch when we switch back and forth between languages. Still, it’s an 
+strings should use single quotes. This isn’t uncommon as we tend to context
+switch when we switch back and forth between languages. Still, it’s an
 interesting exercise in self-observation.
 
 Coding style is made up of numerous small decisions based on the language:
@@ -50,80 +49,77 @@ Coding style is made up of numerous small decisions based on the language:
 *   Patterns to be avoided.
 
 This is by no means an exhaustive list, as coding style can be extremely fine-
-grained, such as the[Google JavaScript Style Guide][3], or more general, such
-as the[jQuery Core Style Guidelines][4].
+grained, such as the [Google JavaScript Style Guide][3], or more general, such
+as the [jQuery Core Style Guidelines][4].
 
 ### It’s Personal
 
 The personal nature of coding style is a challenge in a team atmosphere.
-Oftentimes, seeking to avoid lengthy arguments, teams defer creating style 
+Oftentimes, seeking to avoid lengthy arguments, teams defer creating style
 guides under the guise of not wanting to “discourage innovation and expression.
-” Some see team-defined style guides as a way of forcing all developers to be 
+” Some see team-defined style guides as a way of forcing all developers to be
 the same. Some developers rebel when presented with style guides, believing that
-they can’t properly do their job if someone is telling them how to write their 
+they can’t properly do their job if someone is telling them how to write their
 code.
 
 I liken the situation to a group of musicians trying to form a band. Each one
-comes in believing that their way of doing things is best (their “method” or “
-process”). The band will struggle so long as everyone is trying to do their own 
-thing. It’s impossible to create good music unless everyone in the band agrees 
-on the tempo, the style and who should take lead during a song. Anyone who has 
-ever heard a high school band perform knows this to be true. Unless everyone is 
+comes in believing that their way of doing things is best (their “method” or
+“process”). The band will struggle so long as everyone is trying to do their own
+thing. It’s impossible to create good music unless everyone in the band agrees
+on the tempo, the style and who should take lead during a song. Anyone who has
+ever heard a high school band perform knows this to be true. Unless everyone is
 on the same page, you aren’t going to accomplish much.
 
 That’s why I strongly recommend style guides for software development teams.
-Getting everyone on the same page is difficult, and the style guide is a great 
+Getting everyone on the same page is difficult, and the style guide is a great
 place to start. By having everyone write code that looks the same, you can avoid
 a lot of problems down the road.
 
 ### Communication Is Key
 
 > “Programs are meant to be read by humans and only incidentally for
-> computers to execute.
-> ”  
+> computers to execute.”
 > — H. Abelson and G. Sussman (in “Structure and Interpretation of Computer
-> Programs
-> ”)
+> Programs”)
 
 The most important thing when working on a team is communication. People need
-to be able to work together effectively and the only way to do that is by 
-communicating. As developers, we communicate primarily through code. We 
-communicate with other parts of the software through code and we communicate 
+to be able to work together effectively and the only way to do that is by
+communicating. As developers, we communicate primarily through code. We
+communicate with other parts of the software through code and we communicate
 with other developers through code.
 
 While the software your code communicates with doesn’t care how the code
-looks, the other developers on your team certainly do. The way code looks adds 
-to our understanding of it. How many times have you opened up a piece of code 
-that somebody else wrote, and, before doing anything else, re-indented it the 
-way that you like? That’s your brain not being able to figure out the code 
-because of how it looks. When everyone is writing code that looks different, 
-everyone is constantly trying to visually parse the code before being able to 
+looks, the other developers on your team certainly do. The way code looks adds
+to our understanding of it. How many times have you opened up a piece of code
+that somebody else wrote, and, before doing anything else, re-indented it the
+way that you like? That’s your brain not being able to figure out the code
+because of how it looks. When everyone is writing code that looks different,
+everyone is constantly trying to visually parse the code before being able to
 understand it. When everyone is writing code that looks the same, your brain can
 relax a bit as the understanding comes faster.
 
-![BBC GEL][5]  
+![BBC GEL][5]
 *Not only designers can use style guides to ensure consistent visual design and
-informed design decisions. We could use them on the macrolevel as well: for the 
+informed design decisions. We could use them on the macrolevel as well: for the
 little fine details in our code.*
 
 When you start thinking of code as communication with other developers, you
 start to realize that you’re not simply writing code, you’re crafting code. Your
 code should clearly communicate its purpose to the casual observer. Keep in mind,
-your code is destined to be maintained by somebody other than you. You are not 
-just communicating with other members of your team in the present, you’re also 
+your code is destined to be maintained by somebody other than you. You are not
+just communicating with other members of your team in the present, you’re also
 communicating with members of your team in the future.
 
 I recently received an email from someone who is working on code that I wrote
-10 years ago. Apparently, much to my shock and horror, my code is still being 
-used in the product. He felt compelled to email me to say that he enjoyed 
-working with my code. I smiled. My future teammate actually did appreciate the 
+10 years ago. Apparently, much to my shock and horror, my code is still being
+used in the product. He felt compelled to email me to say that he enjoyed
+working with my code. I smiled. My future teammate actually did appreciate the
 coding style I followed.
 
 ### Leave Yourself Clues
 
 > “If you know your enemies and know yourself, you will not be imperiled in a
-> hundred battles.
-> ”  
+> hundred battles.”
 > — Sun Tzu (in “The Art of War”)
 
 Knowing yourself is important in life as well as coding. However, you’ll
@@ -228,9 +224,9 @@ In my experience, once teams get started on coding style guides, they tend to go
 into more and more detail because it helps them organize and understand the code
 they already have.
 
-![Order In Your Code][7]  
+![Order In Your Code][7]
 *In art, numbers are usually chaotic and serve a visual purpose. But you need
-order in your code.[ (Image source on flickr)][8]*
+order in your code.[(Image credit: Alexflx54)][8]*
 
 I’ve never seen a coding style guide with too much detail, but I have seen
 them with too little detail. That’s why it’s important for the team to develop a
@@ -285,13 +281,13 @@ effective, and that starts by letting everyone contribute to its creation.
 
 *(cp)*</article>
 
- [1]: img/start-image-500.jpg "Style Guide"
+ [1]: img/start-image.jpg "Style Guide"
  [2]: http://www.flickr.com/photos/wikidave/7118464049/sizes/c/
  [3]: http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml
  [4]: http://docs.jquery.com/JQuery_Core_Style_Guidelines
- [5]: img/Gel2-500.jpg "BBC GEL"
+ [5]: img/gel2.jpg "BBC GEL"
  [6]: http://chriseppstein.github.com/
- [7]: img/coding-500.jpg ""
+ [7]: img/coding.jpg "Order In Your Code"
  [8]: http://www.flickr.com/photos/73807667@N02/8021619893/sizes/c/
 
  [9]: http://eclipseone.wordpress.com/2009/12/13/automatically-format-and-cleanup-code-every-time-you-save/
